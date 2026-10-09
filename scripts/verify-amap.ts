@@ -1,0 +1,11 @@
+import { searchPlaces, suggestPlaces, compareLocal } from '../src/local-service';
+import { shanghaiToday } from '../src/model';
+import { writeFileSync } from 'node:fs';
+const a=(await searchPlaces('上海','徐家汇地铁站'))[0];
+const b=(await searchPlaces('上海','五角场地铁站'))[0];
+if(!a||!b) throw new Error('未返回公开地标');
+const candidates=await suggestPlaces('上海',[a,b],'咖啡厅');
+if(!candidates.length)throw new Error('未返回候选会合地点');
+const result=await compareLocal({city:'上海',date:shanghaiToday(),time:'14:00',members:[{name:'我',place:a,mode:'transit',maxMinutes:120},{name:'朋友',place:b,mode:'transit',maxMinutes:120}],candidates:candidates.slice(0,1)});
+writeFileSync('evidence/amap-live-verification.json',JSON.stringify({checkedAt:new Date().toISOString(),scenario:'公开地标演示，非用户位置',result},null,2));
+console.log(JSON.stringify({origins:[a.name,b.name],candidates:candidates.length,plans:result.plans.length,exclusions:result.exclusions},null,2));

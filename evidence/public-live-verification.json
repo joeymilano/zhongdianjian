@@ -1,0 +1,334 @@
+{
+  "verification": "Public browser button returned result; persisted D1 record verified",
+  "url": "https://zhongdianjian.super666joey.workers.dev",
+  "result": {
+    "plans": [
+      {
+        "id": "济南-fair",
+        "city": "济南",
+        "goal": "fair",
+        "journeys": [
+          {
+            "memberId": "m1",
+            "name": "我",
+            "origin": "北京",
+            "local": false,
+            "outbound": {
+              "origin": "北京",
+              "destination": "济南",
+              "departure": "2026-10-10 09:28:00",
+              "arrival": "2026-10-10 11:10:00",
+              "departureStation": "北京南站",
+              "arrivalStation": "济南西站",
+              "trainNo": "G1063",
+              "seat": "二等座",
+              "durationMinutes": 102,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2hDXEB",
+              "inventoryVerified": false,
+              "fareFen": 18600
+            },
+            "inbound": {
+              "origin": "济南",
+              "destination": "北京",
+              "departure": "2026-10-11 09:27:00",
+              "arrival": "2026-10-11 10:51:00",
+              "departureStation": "济南西站",
+              "arrivalStation": "北京南站",
+              "trainNo": "G66",
+              "seat": "二等座",
+              "durationMinutes": 84,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1jDJzl",
+              "inventoryVerified": false,
+              "fareFen": 20200
+            },
+            "arrival": 1791601800000,
+            "returnDeparture": 1791682020000,
+            "fareFen": 38800,
+            "rideMinutes": 186
+          },
+          {
+            "memberId": "m2",
+            "name": "朋友 A",
+            "origin": "天津",
+            "local": false,
+            "outbound": {
+              "origin": "天津",
+              "destination": "济南",
+              "departure": "2026-10-10 19:53:00",
+              "arrival": "2026-10-10 21:16:00",
+              "departureStation": "天津西站",
+              "arrivalStation": "济南西站",
+              "trainNo": "G2635",
+              "seat": "二等座",
+              "durationMinutes": 83,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1lO4Vr",
+              "inventoryVerified": false,
+              "fareFen": 14800
+            },
+            "inbound": {
+              "origin": "济南",
+              "destination": "天津",
+              "departure": "2026-10-11 14:39:00",
+              "arrival": "2026-10-11 15:56:00",
+              "departureStation": "济南西站",
+              "arrivalStation": "天津西站",
+              "trainNo": "G1258",
+              "seat": "二等座",
+              "durationMinutes": 77,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F018gSk",
+              "inventoryVerified": false,
+              "fareFen": 15400
+            },
+            "arrival": 1791638160000,
+            "returnDeparture": 1791700740000,
+            "fareFen": 30200,
+            "rideMinutes": 160
+          }
+        ],
+        "totalFen": 69000,
+        "maxRideMinutes": 186,
+        "totalRideMinutes": 346,
+        "windowStart": 1791638160000,
+        "windowEnd": 1791682020000,
+        "togetherMinutes": 731
+      },
+      {
+        "id": "济南-cheap",
+        "city": "济南",
+        "goal": "cheap",
+        "journeys": [
+          {
+            "memberId": "m1",
+            "name": "我",
+            "origin": "北京",
+            "local": false,
+            "outbound": {
+              "origin": "北京",
+              "destination": "济南",
+              "departure": "2026-10-10 09:28:00",
+              "arrival": "2026-10-10 11:10:00",
+              "departureStation": "北京南站",
+              "arrivalStation": "济南西站",
+              "trainNo": "G1063",
+              "seat": "二等座",
+              "durationMinutes": 102,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2hDXEB",
+              "inventoryVerified": false,
+              "fareFen": 18600
+            },
+            "inbound": {
+              "origin": "济南",
+              "destination": "北京",
+              "departure": "2026-10-11 07:45:00",
+              "arrival": "2026-10-11 09:31:00",
+              "departureStation": "济南西站",
+              "arrivalStation": "北京南站",
+              "trainNo": "G1050",
+              "seat": "二等座",
+              "durationMinutes": 106,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0oG5Zv",
+              "inventoryVerified": false,
+              "fareFen": 16800
+            },
+            "arrival": 1791601800000,
+            "returnDeparture": 1791675900000,
+            "fareFen": 35400,
+            "rideMinutes": 208
+          },
+          {
+            "memberId": "m2",
+            "name": "朋友 A",
+            "origin": "天津",
+            "local": false,
+            "outbound": {
+              "origin": "天津",
+              "destination": "济南",
+              "departure": "2026-10-10 15:40:00",
+              "arrival": "2026-10-10 16:59:00",
+              "departureStation": "天津西站",
+              "arrivalStation": "济南西站",
+              "trainNo": "G1203",
+              "seat": "二等座",
+              "durationMinutes": 79,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1nENju",
+              "inventoryVerified": false,
+              "fareFen": 15400
+            },
+            "inbound": {
+              "origin": "济南",
+              "destination": "天津",
+              "departure": "2026-10-11 10:12:00",
+              "arrival": "2026-10-11 14:38:00",
+              "departureStation": "济南站",
+              "arrivalStation": "天津站",
+              "trainNo": "K336",
+              "seat": "硬座",
+              "durationMinutes": 266,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3EHAJX",
+              "inventoryVerified": false,
+              "fareFen": 5150
+            },
+            "arrival": 1791622740000,
+            "returnDeparture": 1791684720000,
+            "fareFen": 20550,
+            "rideMinutes": 345
+          }
+        ],
+        "totalFen": 55950,
+        "maxRideMinutes": 345,
+        "totalRideMinutes": 553,
+        "windowStart": 1791622740000,
+        "windowEnd": 1791675900000,
+        "togetherMinutes": 886
+      },
+      {
+        "id": "济南-together",
+        "city": "济南",
+        "goal": "together",
+        "journeys": [
+          {
+            "memberId": "m1",
+            "name": "我",
+            "origin": "北京",
+            "local": false,
+            "outbound": {
+              "origin": "北京",
+              "destination": "济南",
+              "departure": "2026-10-10 09:28:00",
+              "arrival": "2026-10-10 11:10:00",
+              "departureStation": "北京南站",
+              "arrivalStation": "济南西站",
+              "trainNo": "G1063",
+              "seat": "二等座",
+              "durationMinutes": 102,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2hDXEB",
+              "inventoryVerified": false,
+              "fareFen": 18600
+            },
+            "inbound": {
+              "origin": "济南",
+              "destination": "北京",
+              "departure": "2026-10-11 10:38:00",
+              "arrival": "2026-10-11 12:18:00",
+              "departureStation": "济南西站",
+              "arrivalStation": "北京南站",
+              "trainNo": "G532",
+              "seat": "二等座",
+              "durationMinutes": 100,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1iAnQ3",
+              "inventoryVerified": false,
+              "fareFen": 19400
+            },
+            "arrival": 1791601800000,
+            "returnDeparture": 1791686280000,
+            "fareFen": 38000,
+            "rideMinutes": 202
+          },
+          {
+            "memberId": "m2",
+            "name": "朋友 A",
+            "origin": "天津",
+            "local": false,
+            "outbound": {
+              "origin": "天津",
+              "destination": "济南",
+              "departure": "2026-10-10 13:31:00",
+              "arrival": "2026-10-10 14:51:00",
+              "departureStation": "天津西站",
+              "arrivalStation": "济南西站",
+              "trainNo": "G1251",
+              "seat": "二等座",
+              "durationMinutes": 80,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0lztyg",
+              "inventoryVerified": false,
+              "fareFen": 15400
+            },
+            "inbound": {
+              "origin": "济南",
+              "destination": "天津",
+              "departure": "2026-10-11 14:39:00",
+              "arrival": "2026-10-11 15:56:00",
+              "departureStation": "济南西站",
+              "arrivalStation": "天津西站",
+              "trainNo": "G1258",
+              "seat": "二等座",
+              "durationMinutes": 77,
+              "bookingUrl": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F018gSk",
+              "inventoryVerified": false,
+              "fareFen": 15400
+            },
+            "arrival": 1791615060000,
+            "returnDeparture": 1791700740000,
+            "fareFen": 30800,
+            "rideMinutes": 157
+          }
+        ],
+        "totalFen": 68800,
+        "maxRideMinutes": 202,
+        "totalRideMinutes": 359,
+        "windowStart": 1791615060000,
+        "windowEnd": 1791686280000,
+        "togetherMinutes": 1187
+      }
+    ],
+    "exclusions": [],
+    "feasibleCities": [
+      "济南"
+    ],
+    "id": "5cbd3c9b-5118-4be6-a76b-1c9a849b00ca",
+    "trip": {
+      "date": "2026-10-10",
+      "members": [
+        {
+          "id": "m1",
+          "name": "我",
+          "city": "北京",
+          "earliestDeparture": "09:00",
+          "latestReturn": "21:00",
+          "budget": 800,
+          "maxRideHours": 6
+        },
+        {
+          "id": "m2",
+          "name": "朋友 A",
+          "city": "天津",
+          "earliestDeparture": "09:00",
+          "latestReturn": "21:00",
+          "budget": 800,
+          "maxRideHours": 6
+        }
+      ],
+      "cities": [
+        "济南"
+      ],
+      "minTogetherHours": 12,
+      "preferences": ""
+    },
+    "queriedAt": "2026-10-08T16:17:10.041Z",
+    "oldestQuote": "2026-10-08T16:16:13.157412Z",
+    "expiresAt": "2026-10-08T16:21:13.157Z",
+    "source": "飞猪 FlyAI · 百炼 Managed Agent",
+    "execution": {
+      "engine": "bailian-managed-agent",
+      "sessions": [
+        {
+          "engine": "bailian-managed-agent",
+          "sessionId": "redacted-resource-id",
+          "agentId": "redacted-resource-id",
+          "eventIds": [
+            "redacted-resource-id",
+            "redacted-resource-id",
+            "redacted-resource-id",
+            "redacted-resource-id",
+            "redacted-resource-id",
+            "redacted-resource-id",
+            "redacted-resource-id"
+          ]
+        }
+      ]
+    },
+    "searchedRoutes": 4,
+    "partial": false,
+    "platformHints": []
+  }
+}

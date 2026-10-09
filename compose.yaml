@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:3088:3088"
+    env_file: .env.local
+    environment:
+      DATA_DIR: /app/.local
+    volumes:
+      - usage:/app/.local
+    restart: unless-stopped
+volumes:
+  usage:

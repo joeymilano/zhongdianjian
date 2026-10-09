@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-10-09T00:44:18+08:00",
+  "url": "https://zhongdianjian.super666joey.workers.dev",
+  "deploymentVersion": "6a33f8ed-d664-4631-b5a9-e51e5b2daa90",
+  "method": "Public browser search, confirm POIs, suggest three places, compare real transit routes",
+  "scenario": {
+    "city": "上海",
+    "origins": [
+      "徐家汇(地铁站)",
+      "五角场(地铁站)"
+    ],
+    "date": "2026-10-10",
+    "time": "13:00",
+    "limitMinutes": 60
+  },
+  "results": [
+    {
+      "place": "POCKET DINGDONG(口袋叮咚七浦路店)",
+      "minutes": [
+        35,
+        33
+      ],
+      "fareCny": [
+        4,
+        4
+      ]
+    },
+    {
+      "place": "青松咖·让灵感更清醒(上海白马大厦店)",
+      "minutes": [
+        36,
+        33
+      ],
+      "fareCny": [
+        4,
+        4
+      ]
+    },
+    {
+      "place": "瑞幸咖啡(长泰企业天地店)",
+      "minutes": [
+        38,
+        33
+      ],
+      "fareCny": [
+        4,
+        4
+      ]
+    }
+  ],
+  "source": "高德地图",
+  "scope": "Public landmarks used as test data, not private user locations"
+}

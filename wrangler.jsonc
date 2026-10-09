@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zhongdianjian",
+  "main": "cloudflare/worker.ts",
+  "compatibility_date": "2026-10-08",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {"directory": "./out", "binding": "ASSETS", "run_worker_first": ["/api/*"]},
+  "d1_databases": [{"binding": "DB", "database_name": "zhongdianjian-budget", "database_id": "YOUR_D1_DATABASE_ID"}],
+  "vars": {"API_BUDGET_CNY": "200", "PUBLIC_MAP_ENABLED": "true", "MANAGED_AGENT_POLL_MS": "8000", "MANAGED_AGENT_MAX_REQUESTS": "44"},
+  "observability": {"enabled": true, "head_sampling_rate": 0.1}
+}
