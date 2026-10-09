@@ -8,7 +8,7 @@
 
 **2–4 人共同决策 · 同城与跨城 · 三种方案比较 · 百炼 Managed Agent**
 
-![中点见首页，微缩列车与水乡相聚场景](https://raw.githubusercontent.com/joeymilano/zhongdianjian/main/docs/screenshots/home.jpg)
+![中点见首页，微缩列车与水乡相聚场景](https://raw.githubusercontent.com/joeymilano/zhongdianjian/main/docs/screenshots/home-friends.jpg)
 
 [立即体验中点见](https://zhongdianjian.super666joey.workers.dev)
 
